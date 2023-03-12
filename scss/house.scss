@@ -1,0 +1,17 @@
+@import "variables";
+@import "mixins";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font;
+    font-style: normal;
+}

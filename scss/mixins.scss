@@ -1,0 +1,73 @@
+@mixin textEditor($fontSize, $fontWeight, $lineHeight, $space){
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: $lineHeight;
+    letter-spacing: $space;
+}
+
+@mixin size ($hight, $width){
+    height: $hight;
+    width: $width;
+}
+
+@mixin position ($left, $right){
+    left: $left;
+    right: $left;
+}
+
+@mixin positioning ($position ,$left, $right, $top){
+    position: $position;
+    left: $left;
+    right: $right;
+    top: $top;
+}
+
+@mixin flex ($display, $justify, $align){
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin logo{
+    height: 19px;
+    width: 220px;
+}
+
+@mixin link{
+    text-decoration: none;
+    color: inherit;
+}
+
+@mixin description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $hcolor;
+}
+
+@mixin heading{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $spancolor;
+}
+
+@mixin personaID {
+    text-align: center;
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: $hcolor;
+}
+
+@mixin personaName{
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+
+    color: $h2color;
+}

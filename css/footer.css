@@ -1,0 +1,106 @@
+.getintouch {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 5893px;
+  background-color: #CEC4BC;
+  height: 314px;
+}
+
+.getintouchContent {
+  position: absolute;
+  left: 9.44%;
+  right: 9.44%;
+  top: 100px;
+  height: 114px;
+}
+
+.inTouchleft {
+  position: absolute;
+  left: 0%;
+  right: 50.68%;
+  top: 0px;
+}
+.inTouchleft h4 {
+  position: absolute;
+  left: 0%;
+  right: 78.47%;
+  top: 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #403E3B;
+  color: #645C55;
+}
+.inTouchleft p {
+  position: absolute;
+  left: 0%;
+  right: 1.22%;
+  top: 13px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: none;
+  color: #1B1A1A;
+}
+
+.intouchright {
+  position: absolute;
+  left: 87.59%;
+  right: 0%;
+  top: 34px;
+  border-radius: 14px;
+}
+.intouchright a {
+  text-decoration: none;
+  color: inherit;
+}
+.intouchright:hover {
+  text-decoration: underline;
+}
+.intouchright:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.credits {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 6207px;
+  height: 204px;
+}
+
+.credictsContent {
+  position: absolute;
+  left: 9.44%;
+  right: 9.44%;
+  top: 60px;
+}
+
+.creditsLeft {
+  position: absolute;
+  left: 0%;
+  right: 40.55%;
+  top: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: none;
+  color: #645C55;
+}
+
+.credictsRight {
+  position: absolute;
+  left: 90.41%;
+  right: 0%;
+  top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

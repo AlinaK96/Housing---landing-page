@@ -1,0 +1,597 @@
+.firstPage {
+  min-height: 720px;
+  background: #ECE7E4;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 90px;
+}
+
+.firstPage_content {
+  height: 566px;
+  position: absolute;
+  left: 4.17%;
+  right: 54.17%;
+  top: 77px;
+}
+.firstPage_content h5 {
+  position: absolute;
+  left: 6.67%;
+  right: 61.67%;
+  top: 60px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #403E3B;
+  color: #645C55;
+}
+.firstPage_content h2 {
+  position: absolute;
+  left: 6.67%;
+  right: 23.83%;
+  top: 100px;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: none;
+  color: #1B1A1A;
+}
+.firstPage_content span {
+  position: absolute;
+  left: 6.67%;
+  right: 8.5%;
+  top: 330px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: none;
+  color: #403E3B;
+}
+
+.readlink {
+  position: absolute;
+  left: 7.5%;
+  right: 70.33%;
+  top: 491px;
+}
+.readlink p {
+  position: absolute;
+  left: 15.04%;
+  right: 15.04%;
+  top: 11px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #1B1A1A;
+}
+.readlink a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.right img {
+  height: 720px;
+  width: 720px;
+  position: absolute;
+  left: 51%;
+  right: 0%;
+  top: 0px;
+}
+
+.secondPage {
+  position: absolute;
+  left: 23.33%;
+  right: 23.33%;
+  top: 910px;
+  height: 582px;
+}
+.secondPage h3 {
+  position: absolute;
+  left: 0%;
+  right: 82.55%;
+  top: -4px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: none;
+  color: #403E3B;
+}
+
+.secondpageInfo {
+  position: absolute;
+  left: 34.72%;
+  right: 0%;
+  top: 0px;
+}
+.secondpageInfo p {
+  position: relative;
+  left: 0.07%;
+  right: 1.59%;
+  top: auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: none;
+  margin-bottom: 10px;
+  color: #403E3B;
+}
+
+.comment {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 452px;
+}
+.comment img {
+  position: absolute;
+  left: 0.07%;
+  right: 83.18%;
+  top: 8px;
+}
+
+.person {
+  position: absolute;
+  left: 16.76%;
+  right: 44.15%;
+  top: 0px;
+}
+.person h5 {
+  position: absolute;
+  left: 15.48%;
+  right: 15.13%;
+  top: 30px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: none;
+  color: #1B1A1A;
+}
+.person p {
+  position: absolute;
+  left: 15.48%;
+  right: 31.97%;
+  top: 53px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: none;
+  color: #645C55;
+}
+
+.page3 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 1592px;
+  background-color: #e6e6e8;
+}
+
+.content {
+  position: absolute;
+  left: 75%;
+  right: 4.17%;
+  top: 0px;
+}
+.content h3 {
+  position: relative;
+  left: 0%;
+  right: 54.33%;
+  top: 266px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #403E3B;
+}
+.content span {
+  position: relative;
+  left: 0%;
+  right: 5%;
+  top: 286px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #645C55;
+}
+
+.ourProcess {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 2292px;
+}
+
+.processHeader {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 0px;
+  text-align: center;
+}
+.processHeader h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #403E3B;
+  position: absolute;
+  left: calc(50% - 61px);
+  top: 0px;
+  text-transform: uppercase;
+  color: #645C55;
+}
+.processHeader h2 {
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: none;
+  position: absolute;
+  left: calc(50% - 234px);
+  top: 33px;
+  color: #1B1A1A;
+}
+
+.processContent {
+  position: absolute;
+  left: 1.33%;
+  right: 1.33%;
+  top: 122px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 259px;
+  text-align: center;
+}
+
+.Contentprocess {
+  height: 259px;
+  width: 378px;
+}
+.Contentprocess h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #403E3B;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.Contentprocess span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #645C55;
+}
+.Contentprocess img {
+  height: 102px;
+  width: 117px;
+}
+
+.page5 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 2773px;
+  background-color: #dfe1df;
+}
+
+.partners {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 3370px;
+  height: 410px;
+  background: #403E3B;
+}
+
+.partnersContent {
+  position: absolute;
+  left: 9.44%;
+  right: 9.44%;
+  top: 60px;
+  height: 290px;
+}
+
+.text {
+  position: absolute;
+  left: 0%;
+  right: 60.62%;
+  top: 65px;
+}
+.text h4 {
+  position: absolute;
+  left: 0%;
+  right: 71.96%;
+  top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #403E3B;
+  color: #ECE7E4;
+}
+.text h2 {
+  position: absolute;
+  left: 0%;
+  right: 35%;
+  top: 26px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: none;
+  color: white;
+}
+.text span {
+  position: absolute;
+  left: 0%;
+  right: 1.96%;
+  top: 78px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: none;
+  color: #ECE7E4;
+}
+
+.partnersLogo {
+  position: absolute;
+  left: 50.68%;
+  right: 12.33%;
+  top: 60px;
+  height: 290px;
+}
+
+.line1 img, .line2 img {
+  margin: 30px 70px;
+}
+
+.page7 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 3780px;
+}
+
+.ContentSeven {
+  position: absolute;
+  left: 4.17%;
+  right: 75%;
+  top: 0px;
+}
+.ContentSeven h3 {
+  position: absolute;
+  left: 0%;
+  right: 25.67%;
+  top: 266px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #403E3B;
+}
+.ContentSeven span {
+  position: absolute;
+  left: 0%;
+  right: 5%;
+  top: 286px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #645C55;
+}
+
+.featuredProjects {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 4383px;
+  height: 918px;
+}
+
+.featuredProjectsContent {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 120px;
+  position: absolute;
+}
+
+.projectsHeader {
+  position: absolute;
+  left: 1.33%;
+  right: 48.67%;
+  top: 0px;
+}
+.projectsHeader h3 {
+  position: absolute;
+  left: 0%;
+  right: 41.5%;
+  top: -7px;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: none;
+  color: #1B1A1A;
+}
+.projectsHeader p {
+  position: absolute;
+  left: 0%;
+  right: 3.17%;
+  top: 50px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: none;
+  color: #645C55;
+}
+
+.frame {
+  position: absolute;
+  left: 1.33%;
+  right: 1.33%;
+  top: 152px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.details h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #403E3B;
+  color: #645C55;
+}
+.details p {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: none;
+  margin-bottom: 7px;
+  color: #403E3B;
+}
+
+.seeMore {
+  position: absolute;
+  height: 46px;
+  width: 180px;
+  left: calc(50% - 90px + 3px);
+  top: 730px;
+  border: 1px solid black;
+}
+.seeMore p {
+  text-align: center;
+  padding-top: 11px;
+}
+.seeMore a {
+  text-decoration: none;
+  color: inherit;
+}
+.seeMore:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.seeMore:hover {
+  text-decoration: underline;
+}
+.seeMore:active {
+  color: #403E3B;
+}
+
+.team {
+  position: absolute;
+  left: 9.44%;
+  right: 9.44%;
+  top: 5401px;
+}
+
+.teamDescription {
+  position: absolute;
+  left: 0%;
+  right: 67.58%;
+  top: 0px;
+}
+.teamDescription h3 {
+  position: absolute;
+  left: 0%;
+  right: 36.62%;
+  top: -4px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: none;
+  color: #403E3B;
+}
+.teamDescription span {
+  position: absolute;
+  left: 0%;
+  right: 5.46%;
+  top: 48px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: none;
+  color: #645C55;
+}
+.teamDescription p {
+  position: absolute;
+  left: 1.32%;
+  right: 66.72%;
+  top: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4;
+}
+.teamDescription a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.teamPeople {
+  position: absolute;
+  left: 40%;
+  right: 14%;
+  top: 0px;
+  height: 392px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.persona {
+  height: 100px;
+  width: 231px;
+}
+.persona img {
+  float: left;
+}
+
+.personInfo {
+  padding-top: 30px;
+}
+.personInfo h5 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #1B1A1A;
+}
+.personInfo p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #645C55;
+}

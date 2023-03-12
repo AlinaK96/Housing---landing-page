@@ -1,0 +1,68 @@
+@import "variables";
+@import "mixins";
+
+.getintouch{
+    @include positioning (absolute, 0%, 0%, 5893px);
+    background-color: #CEC4BC;;
+    height: 314px;
+}
+
+.getintouchContent{
+    @include positioning (absolute, 9.44%, 9.44%, 100px);
+    height: 114px;
+}
+
+.inTouchleft{
+    @include positioning (absolute, 0%, 50.68%, 0px);
+
+    h4{
+        @include positioning (absolute, 0%, 78.47%, 0px);
+        @include heading;
+        color: $hcolor;
+    }
+    p{
+        @include positioning (absolute, 0%, 1.22%, 13px);
+        @include textEditor (40px, 400, 42px, none);
+        color: $h2color;
+    }
+}
+
+.intouchright{
+    @include positioning (absolute, 87.59%, 0%, 34px);
+    border-radius: 14px;
+
+    a{
+        @include link;
+    }
+
+    &:hover{
+        text-decoration: underline;
+    }
+
+    &:visited{
+        @include link;
+    }
+}
+
+.credits{
+    @include positioning (absolute, 0%, 0%, 6207px);
+    height: 204px;
+}
+
+.credictsContent{
+    @include positioning (absolute, 9.44%, 9.44%, 60px);
+}
+
+.creditsLeft{
+    @include positioning (absolute, 0%, 40.55%, 0px);
+    @include textEditor (14px, 400, 20px, none);
+    color: $hcolor;
+
+
+}
+
+.credictsRight{
+    @include positioning (absolute, 90.41%, 0%, 60px);
+    display: flex;
+    justify-content: space-between;
+}
