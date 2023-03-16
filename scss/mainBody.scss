@@ -1,6 +1,10 @@
 @import "variables";
 @import "mixins";
 
+.container{
+    max-width: 1440px;
+}
+
 .firstPage{
     min-height: 720px;
     background: $main;

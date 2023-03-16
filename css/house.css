@@ -10,4 +10,5 @@ html {
 body {
   font-family: Poppins;
   font-style: normal;
+  min-width: 1440px;
 }

@@ -1,3 +1,7 @@
+.container {
+  max-width: 1440px;
+}
+
 .firstPage {
   min-height: 720px;
   background: #ECE7E4;
